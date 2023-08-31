@@ -41,9 +41,9 @@ const Index = () => {
             La Doctrina Social de la Iglesia es un conjunto de principios éticos que guía a la comunidad católica 
             en la búsqueda de justicia, solidaridad y dignidad humana en la sociedad.
             </p>
-            <a
-              href="/Doctrina"
-              className="btn"
+            <Link to="/Doctrina">
+            <a            
+              className="btn "
               style={{
                 backgroundColor: "#172E4B",
                 color: "#f3ca4c",
@@ -53,6 +53,7 @@ const Index = () => {
             >
               Leer Más
             </a>
+            </Link>
           </div>
         </div>
 
@@ -75,8 +76,8 @@ const Index = () => {
             la primera encíclica que abordó los derechos de los trabajadores y la justicia en un mundo 
             en transformación.
             </p>
-            <a
-              href="/Novarum"
+            <Link to="/Novarum">
+            <a            
               className="btn "
               style={{
                 backgroundColor: "#172E4B",
@@ -87,6 +88,7 @@ const Index = () => {
             >
               Leer Más
             </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -113,8 +115,8 @@ const Index = () => {
             ante todo, en los aspectos principales e inseparables de la persona humana para captar las 
             facetas más importantes de su misterio y de su dignidad
             </p>
-            <a
-              href="/Dimensioneshumanas"
+            <Link to="/Dimensioneshumanas">
+            <a            
               className="btn "
               style={{
                 backgroundColor: "#172E4B",
@@ -125,6 +127,7 @@ const Index = () => {
             >
               Leer Más
             </a>
+            </Link>
           </div>
         </div>
 
@@ -147,19 +150,19 @@ const Index = () => {
             garantías fundamentales que cada persona merece, tejidas en la esencia 
             misma de ser humano, para proteger la libertad, igualdad y respeto.
             </p>
-            <a
-              href="/Humanderechos"
-              className="btn"
+            <Link to="/Humanderechos">
+            <a            
+              className="btn "
               style={{
                 backgroundColor: "#172E4B",
-                color: "#f3ca4c",  
-                marginTop:'30px',
-                marginBottom:'5px',              
+                color: "#f3ca4c",
+                marginBottom:'10px',
                 marginLeft:'250px'
               }}
             >
               Leer Más
             </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -185,17 +188,19 @@ const Index = () => {
             individuales en pro de un beneficio colectivo; es la brújula que guía hacia decisiones y acciones 
             que enriquecen la vida de todos en la comunidad.
             </p>
-            <a
-              href="/Principio"
-              className="btn"
+            <Link to="/Principio">
+            <a            
+              className="btn "
               style={{
                 backgroundColor: "#172E4B",
-                color: "#f3ca4c",                
+                color: "#f3ca4c",
+                marginBottom:'10px',
                 marginLeft:'250px'
               }}
             >
               Leer Más
             </a>
+            </Link>
           </div>
         </div>
     </div>
